@@ -3,3 +3,8 @@ def Welcome(name=""):
     return text
 
 print(Welcome('Peter'))
+
+def display_id(num):
+    print(f"Your ID is {num}")
+
+display_id(500)
